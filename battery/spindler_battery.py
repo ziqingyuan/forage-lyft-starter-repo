@@ -4,7 +4,7 @@ from battery import Battery
 
 
 class SpindlerBattery(Battery):
-    def __int__(self, last_service_date: date, current_date: date):
+    def __init__(self, last_service_date: date, current_date: date):
         self.last_service_date = last_service_date
         self.current_date = current_date
 
