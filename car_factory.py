@@ -7,6 +7,8 @@ from battery.nubbin_battery import NubbinBattery
 
 
 class CarFactory:
+    # TODO: add tires sensors array as input
+    # TODO: get the type of tires for each type of car
     @staticmethod
     def create_calliope(current_date, last_service_date, current_mileage, last_service_mileage):
         capulet_engine = CapuletEngine(current_mileage, last_service_mileage)
